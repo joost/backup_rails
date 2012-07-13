@@ -16,9 +16,15 @@ Or install it yourself as:
 
     $ gem install backup_rails
 
+## TODO
+
+* Add Rails generator for simple backup scripts.
+
 ## Usage
 
-TODO: Write usage instructions here
+For now just add the gem to your Gemfile.
+Move the files in /examples dir into your project.
+Run whenever to setup your cron job. Make sure you've set the RAILS_ENV correctly.
 
 ## Contributing
 
