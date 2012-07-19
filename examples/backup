@@ -1,0 +1,3 @@
+# Put this file in rails_project/script/backup
+#!/bin/bash
+backup perform --trigger mmmenu --config_file config/backup.rb --data-path db --log-path log --tmp-path tmp
