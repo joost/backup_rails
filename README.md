@@ -26,6 +26,9 @@ For now just add the gem to your Gemfile.
 Move the files in /examples dir into your project.
 Run whenever to setup your cron job. Make sure you've set the RAILS_ENV correctly.
 
+    whenever --update-crontab
+    crontab -l # Check if everything got updated correctly
+
 When cron jobs are not run make sure you:
 
     sudo touch /etc/cron.deny
