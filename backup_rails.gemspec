@@ -20,6 +20,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'fog', '~> 1.4.0' # S3
   gem.add_dependency 'net-ssh', '~> 2.3.0'
   gem.add_dependency 'net-sftp', '~> 2.0.5'
-  gem.add_dependency 'mail', '~> 2.4.0'
+  gem.add_dependency 'mail', '>= 2.4.0'
   gem.add_dependency 'whenever' # For cronjob config, see config/schedule.rb
 end
