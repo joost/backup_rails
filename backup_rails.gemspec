@@ -21,6 +21,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'excon' # HTTP Connection Support for Storages/Syncers
   gem.add_dependency 'net-ssh', '~> 2.3.0' # SSH Protocol (SSH Storage)
   gem.add_dependency 'net-sftp', '~> 2.0.5' # SFTP Protocol (SFTP Storage)
-  gem.add_dependency 'mail', '>= 2.5.0' # Sending Emails (Mail Notifier)
+  gem.add_dependency 'mail', '>= 2.4.4' # Sending Emails (Mail Notifier)
   gem.add_dependency 'whenever' # For cronjob config, see config/schedule.rb
 end
