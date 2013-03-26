@@ -16,11 +16,11 @@ Gem::Specification.new do |gem|
   gem.version       = BackupRails::VERSION
 
   # For backup
-  gem.add_dependency 'backup', '>= 3.0.24'
-  gem.add_dependency 'fog', '~> 1.4.0' # S3
-  gem.add_dependency 'net-ssh', '~> 2.3.0'
-  gem.add_dependency 'net-sftp', '~> 2.0.5'
-  gem.add_dependency 'mail', '>= 2.4.0'
-  gem.add_dependency 'excon' # Used for: HTTP Connection Support for Storages/Syncers
+  gem.add_dependency 'backup', '>= 3.1.3'
+  gem.add_dependency 'fog', '~> 1.9.0' # Amazon S3, Rackspace Cloud Files (S3, CloudFiles Storages)
+  gem.add_dependency 'excon' # HTTP Connection Support for Storages/Syncers
+  gem.add_dependency 'net-ssh', '~> 2.3.0' # SSH Protocol (SSH Storage)
+  gem.add_dependency 'net-sftp', '~> 2.0.5' # SFTP Protocol (SFTP Storage)
+  gem.add_dependency 'mail', '>= 2.5.0' # Sending Emails (Mail Notifier)
   gem.add_dependency 'whenever' # For cronjob config, see config/schedule.rb
 end
